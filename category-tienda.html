@@ -120,11 +120,11 @@
 				<div class="advance-search">
 					<form>
 						<div class="form-row">
-							<div class="form-group col-md-4">
+							<!--div class="form-group col-md-4">
 								<input type="text" class="form-control my-2 my-lg-0" id="inputtext4" placeholder="Dispositivos móviles">
-							</div>
+							</div-->
 							<div class="form-group col-md-3">
-								<input type="text" class="form-control my-2 my-lg-0" id="inputCategory4" placeholder="Electrónica">
+								<input type="text" class="form-control my-2 my-lg-0" id="inputCategory4" placeholder="Supermercados">
 							</div>
 							<div class="form-group col-md-3">
 								<input type="text" class="form-control my-2 my-lg-0" id="inputLocation4" placeholder="2800">
@@ -140,16 +140,15 @@
 		</div>
 	</div>
 </section>
-
 <br>
-<h1 style="text-align:center">RESULTADO DE PRODUCTOS POR CATEGORÍA</h1>
+<h1 style="text-align:center">RESULTADO DE ESTABLECIMIENTOS POR CATEGORÍA</h1>
 
 <section class="section-sm">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="search-result bg-gray">
-					<h2>Resultados Para "Dispositivos móviles"</h2>
+					<h2>Resultados Para la Categoría de  "Supermercados"</h2>
 					<p>123 Resultados, 14 Septiembre de 2020</p>
 				</div>
 			</div>
@@ -159,12 +158,12 @@
 				<div class="category-sidebar">
 					<div class="widget category-list">
 	<h4 class="widget-header">Todas las Categorías</h4>
-	<ul class="category-list">
+	<!--ul class="category-list">
 		<li><a href="category.html">Sobremesa <span>93</span></a></li>
 		<li><a href="category.html">Iphone <span>233</span></a></li>
 		<li><a href="category.html">Microsoft  <span>183</span></a></li>
 		<li><a href="category.html">Monitores <span>343</span></a></li>
-	</ul>
+	</ul-->
 </div>
 
 <div class="widget category-list">
@@ -183,13 +182,13 @@
 	<h4 class="widget-header">Ordenar Por</h4>
 	<select>
 		<option>Popularidad</option>
-		<option value="1">Relevancia</option>
-		<option value="2">Precio: de más barato a más caro</option>
-		<option value="4">Precio: de más caro a más barato</option>
+		<option value="1">Tamaño: de menor a mayor tamaño</option>
+		<option value="2">Mis Preferidos</option>
+		<!--option value="4">Precio: de más caro a más barato</option-->
 	</select>
 </div>
 
-<div class="widget price-range w-100">
+<!--div class="widget price-range w-100">
 	<h4 class="widget-header">Precio</h4>
 	<div class="block">
 						<input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
@@ -198,7 +197,7 @@
 						<span class="value">10 € - 5000 €</span>
 				</div>
 	</div>
-</div>
+</div-->
 
 <div class="widget product-shorting">
 	<h4 class="widget-header">Por Condiciones</h4>
@@ -237,10 +236,10 @@
 						<div class="col-md-6">
 							<strong>Ordenar por:</strong>
 							<select>
-								<option>Los Más Novedosos</option>
-								<option value="1">Los Más Populares</option>
-								<option value="2">Precio: de más barato a más caro</option>
-								<option value="4">Precio: de más caro a más barato</option>
+								<option>Mis tiendas preferidas</option>
+								<option value="1">Los Más Cercanos</option>
+								<option value="2">Los Más Populares</option>
+								<!--option value="4">Precio: de más caro a más barato</option-->
 							</select>
 						</div>
 						<!--div class="col-md-6">
@@ -271,27 +270,19 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
+		    <h4 class="card-title"><a href="single.html">La Tienda de Al lado</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Electronica</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
-		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
+		    		<a href="#"><i class="fa fa-calendar"></i>Alta desde 26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-            <p class="card-text"><h3>250 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
+            <!--p class="card-text"><h3>250 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
             <i class="fa fa-truck icon-bg-5"></i> 
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
 		    <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -319,27 +310,19 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">Study Table Combo</a></h4>
+		    <h4 class="card-title"><a href="single.html">Supermercados La Martita</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Furnitures</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
-		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
+		    		<a href="#"><i class="fa fa-calendar"></i>Alta desde 26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>2 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
+		    <!--p class="card-text"><h3>2 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
             <i class="fa fa-truck icon-bg-5"></i> 
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -367,26 +350,18 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
+		    <h4 class="card-title"><a href="single.html">Mercadona</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>20 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -414,26 +389,19 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
+		    <h4 class="card-title"><a href="single.html">Carrefour</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		   <p class="card-text"><h3>2500 €</h3></p>
-           <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-           <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
+            <i class="fa fa-truck icon-bg-5"></i>
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -461,27 +429,18 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">Study Table Combo</a></h4>
+		    <h4 class="card-title"><a href="single.html">El Corte Ingles</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Furnitures</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>37 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-            <i class="fa fa-truck icon-bg-5"></i> 
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -509,26 +468,18 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
+		    <h4 class="card-title"><a href="single.html">Otro Mercadona</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>44 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -556,26 +507,19 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
+		    <h4 class="card-title"><a href="single.html">Mercadona</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>85 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
+            <i class="fa fa-truck icon-bg-5"></i>
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -603,26 +547,18 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">Study Table Combo</a></h4>
+		    <h4 class="card-title"><a href="single.html">Mi Mercado</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Furnitures</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>76 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -650,26 +586,19 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">11inch Macbook Air</a></h4>
+		    <h4 class="card-title"><a href="single.html">Otro Mercado</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
-		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Electronics</a>
+		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Supermercados</a>
 		    	</li>
 		    	<li class="list-inline-item">
 		    		<a href="#"><i class="fa fa-calendar"></i>26th December</a>
 		    	</li>
 		    </ul>
 		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-		    <p class="card-text"><h3>85 €</h3></p>
-            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a>
-            <div class="product-ratings">
-            	<ul class="list-inline">
-                	<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-cart-plus icon-bg-5"></i></li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-                    <li class="list-inline-item selected"  style="font-size:25px">  </li>
-		    		<li class="list-inline-item selected"  style="font-size:25px"><i class="fa fa-heart-o icon-bg-5"></i></li>
-                </ul>
-            </div>
+		    <!--p class="card-text"><h3>20 €</h3></p>
+            <a style="text-decoration:blink" href="comercio.html">La Tienda de Al lado</a-->
+            <i class="fa fa-truck icon-bg-5"></i>
             <div class="product-ratings">
 		    	<ul class="list-inline">
 		    		<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
