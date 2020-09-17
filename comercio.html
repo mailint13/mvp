@@ -54,19 +54,19 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto main-nav ">
 							<li class="nav-item active">
-								<a class="nav-link" href="index.html">Inicio</a>
+								<a class="nav-link" href="index.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Inicio</a>
 							</li>
 							<li class="nav-item dropdown dropdown-slide">
-								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Productos<span><i class="fa fa-angle-down"></i></span>
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Categorías<span><i class="fa fa-angle-down"></i></span>
 								</a>
 
 								<!-- Dropdown list -->
 								<div class="dropdown-menu">
-									<a class="dropdown-item" href="dashboard.html">Alimentación</a>
-									<a class="dropdown-item" href="dashboard-my-ads.html">Moda</a>
-									<a class="dropdown-item" href="dashboard-favourite-ads.html">Electronica</a>
-									<a class="dropdown-item" href="dashboard-archived-ads.html">Regalos</a>
-									<a class="dropdown-item" href="dashboard-pending-ads.html">Mercería</a>
+									<a class="dropdown-item" href="category-tienda.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Alimentación</a>
+									<a class="dropdown-item" href="category-tienda.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Moda</a>
+									<a class="dropdown-item" href="category-tienda.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Electronica</a>
+									<a class="dropdown-item" href="category-tienda.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Regalos</a>
+									<a class="dropdown-item" href="category-tienda.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Mercería</a>
 								</div>
 							</li>
 							<!--li class="nav-item dropdown dropdown-slide">
@@ -87,26 +87,23 @@
 
 								</div>
 							</li-->
-							<li class="nav-item dropdown dropdown-slide">
-								<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Listing <span><i class="fa fa-angle-down"></i></span>
-								</a>
-								<!-- Dropdown list -->
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="category-tienda.html">Ad-Gird View</a>
-									<a class="dropdown-item" href="ad-listing-list.html">Ad-List View</a>
-								</div>
+							<li class="nav-item">
+								<a class="nav-link" href="index.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Canjeo de Puntos</a>
 							</li>
+                            
 						</ul>
 						<ul class="navbar-nav ml-auto mt-10">
 							<li class="nav-item">
-								<a class="nav-link login-button" style="background-color:#0C0" href="login.html">Login Cliente</a>
+								<a class="nav-link login-button" style="background-color:#0C0; font-family:Noteworthy Lt; letter-spacing:0.2em" href="login.html">Login Cliente</a>
 							</li>
                             <li class="nav-item">
-								<a class="nav-link login-button" href="login.html">Login Comercio</a>
+								<a class="nav-link login-button" href="login.html" style="font-family:Noteworthy Lt; letter-spacing:0.2em">Login Comercio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="dashboard.html"><i class="fa fa-user-circle-o" style="font-size:30px"></i></a>
+								<a class="nav-link" href="dashboard.html" style="color:#0C0"><i class="fa fa-user-circle-o" style="font-size:30px"></i></a>
+							</li>
+                            <li class="nav-item">
+								<a class="nav-link" href="dashboard-tienda.html"><i class="fa fa-user-circle-o" style="font-size:30px"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -131,6 +128,10 @@
 					<!--h1> </h1>
 					<p>Te ofrecemos los mejores productos. Cerca de tí, de calidad....</p-->
 					<div class="short-popular-category-list text-center">
+                    <h2>Calle de Marina Usera, 2. 28026 Madrid</h2>
+                    <h2>Telefono:</h2>
+                    <h2>e-mail:</h2>
+                    <br><br>
 						<h2>Siguenos en las redes sociales</h2>
 						<ul class="list-inline">
 							<li class="list-inline-item">
@@ -887,8 +888,32 @@
    </div>
    </section>         
             
+   
             
-            
+  <div class="container">
+  	<div class="row">
+    	<div class="col">
+        	<h2>Nos puedes encontrar en</h2>
+            <hr>
+            <p>
+             Calle de Marina Usera, 2. 28026</p>
+             <p>Madrid</p>
+             <p>Telefono: </p>
+             <p>e-mail: </p>
+
+        </div>
+    	<div class="col">
+        	<div class="widget map">
+						<div class="map">
+							<div id="map_canvas" data-latitude="51.507351" data-longitude="-0.127758"></div>
+						</div>
+			</div>
+        </div>
+    </div>
+  </div>
+  
+  
+  
             
 
 
@@ -1073,11 +1098,11 @@
         <!-- About -->
         <div class="block about">
           <!-- footer logo -->
-          <img src="images/logo-footer.png" alt="">
+          <img src="images/logo.png" alt="" style="background-color:black">
           <!-- description -->
           <p class="alt-color">Plataforma online market place que permite a tu pequeño comercio
-           tradicionalmente físico, ofrecer tus productos y servicios también por Internet.
-           Favorecemos el consumo de de proximidad y potenciamos el comercio local</p>
+           , ofrecer tus productos y servicios también por Internet.
+           Favorecemos el negocio local y los productos de proximidad.</p>
         </div>
       </div>
       <!-- Link list -->
@@ -1085,10 +1110,9 @@
         <div class="block">
           <h4>Información</h4>
           <ul>
-            <li><a href="#">España</a></li>
-            <li><a href="#">Como Funciona</a></li>
-            <li><a href="#">Ofertas y Cupones</a></li>
-            <li><a href="#">Artículos</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Como Funciona Mercadeo</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
             <li><a href="terms-condition.html">Terminos y Condiciones</a></li>
           </ul>
         </div>
@@ -1098,15 +1122,10 @@
         <div class="block">
           <h4>Soporte</h4>
           <ul>
-            <li><a href="category-tienda.html">Soporte al Consumidor</a></li>
+            <li><a href="category-tienda.html">Soporte al consumidor</a></li>
             <li><a href="single.html">Soporte al comercio</a></li>
             <li><a href="store.html">Ayuda en el portal</a></li>
-            <li><a href="single-blog.html">Danos tu opinión</a>
-            </li>
-            <li><a href="blog.html">Blog</a></li>
-
-
-
+            <li><a href="single-blog.html">Danos tu opinión</a></li>
           </ul>
         </div>
       </div>
