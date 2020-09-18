@@ -376,7 +376,8 @@ button {
 
 .overly:before {
   content: '';
-  background: rgba(0, 0, 0, 0.51);
+  /**background: rgba(0, 0, 0, 0.51);**/
+  background-color: darkseagreen;
   position: absolute;
   top: 0;
   left: 0;
