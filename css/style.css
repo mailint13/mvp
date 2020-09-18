@@ -594,7 +594,8 @@ ul.pagination .active a {
 }
 
 .page-search {
-  background: #5672f9;
+  /**background: #5672f9;**/
+  background: darkseagreen;
   padding: 30px 0;
 }
 
